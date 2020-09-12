@@ -1,0 +1,24 @@
+.chats-root {
+  background-color: lightblue;
+  height: calc(100% - 40px);
+  width: 100%;
+}
+.humberger-menu {
+  display: none;
+  padding: 0 5px 15px;
+  margin: 0 5px 15px;
+  width: fit-content;
+}
+.humberger-menu:hover {
+  box-shadow: 5px 5px 25px;
+  cursor: pointer;
+}
+.humberger-menu > div {
+  margin: -12px 0;
+}
+
+@media only screen and (max-width: 700px) {
+  .humberger-menu {
+    display: block;
+  }
+}
